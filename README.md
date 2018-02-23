@@ -29,4 +29,4 @@ przeglądarce).
 > 8. Strona powinna być responsywna – minimalna szerokość okna to 320px.
 <br>Zrobione! :boom:
 ### Podgląd strony
-> https://nataliamis.github.io/for-pgs/
+> https://nataliamis.github.io/for-pgs/.
