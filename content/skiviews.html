@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PGS Software</title>
+</head>
+<body>
+<section class="cams">
+    <p id="data-time">
+    <p class="header1">Andalo</p>
+        <script>
+            var today = new Date();
+            var day = today.getDate();
+            var month = today.getMonth()+1;
+            var year = today.getFullYear();
+
+            if(day<10) {
+                day = '0'+day
+            }
+
+            if(month<10) {
+                month = '0'+month
+            }
+
+            today = month + '-' + day + '-' + year;
+            document.getElementById('data-time').innerHTML = today;
+        </script>
+    </p>
+    <div id="cam1"></div>
+    <p id="data-time1">
+    <p class="header2"> Monte Bondone</p>
+        <script>
+        var today = new Date();
+        var day = today.getDate();
+        var month = today.getMonth()+1;
+        var year = today.getFullYear();
+
+        if(day<10) {
+            day = '0'+day
+        }
+
+        if(month<10) {
+            month = '0'+month
+        }
+
+        today = month + '-' + day + '-' + year;
+        document.getElementById('data-time1').innerHTML = today;
+    </script>
+    </p>
+    <div id="cam2"></div>
+</section>
+</body>
+<footer>
+    <div class="line">
+        <div class="feet">Powered by PGS</div>
+    </div>
+</footer>
+</html>
